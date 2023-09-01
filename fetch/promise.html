@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Promises Jvascript</title>
+    </head>
+    <body>
+        <script>
+            function miPromesa(){
+                return new Promise(function(resolve, reject){
+                    let suma = 2 + 6;
+                    if(suma === 8){
+                        resolve("Correcto");
+                    }
+                    else{
+                        reject("Incorrecto");
+                    }
+                });
+            }
+            miPromesa().then(function(mensaje){
+                console.log(mensaje);
+            }).catch(function(error){
+                console.log(error);
+            });
+        </script>
+    </body>
+</html>

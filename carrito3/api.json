@@ -1,0 +1,74 @@
+[
+    {
+        "precio": "$15.00",
+        "id": 1,
+        "title": "Dulces",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/img/crunch.jpg"
+    },
+    {
+        "precio": "$25.00",
+        "id": 2,
+        "title": "Chocolate Hershey",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/img/hershey.jpg"
+    },
+    {
+        "precio": "$10.00",
+        "id": 3,
+        "title": "KitKat",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/img/kitk.jpg"
+    },
+    {
+        "precio": "$5.00",
+        "id": 4,
+        "title": "Kranky",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/img/krank.png"
+    },
+    {
+        "precio": "$15.00",
+        "id": 5,
+        "title": "Mazapan",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/img/maz.png"
+    },
+    {
+        "precio": "$10.00",
+        "id": 6,
+        "title": "M&M",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/img/msm.jpg"
+    },
+    {
+        "precio": "$20.00",
+        "id": 7,
+        "title": "Doritos",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/img/nachos.jpg"
+    },
+    {
+        "precio": "$15.00",
+        "id": 8,
+        "title": "Café",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/img/oblea.jpg"
+    },
+    {
+        "precio": "$10.00",
+        "id": 9,
+        "title": "Magic Stick",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/img/rock.jpg"
+    },
+    {
+        "precio": "$15.00",
+        "id": 10,
+        "title": "Snickers",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/img/snickers.jpg"
+    },
+    {
+        "precio": "$10.00",
+        "id": 11,
+        "title": "Tic Tac",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/img/tict.png"
+    },
+    {
+        "precio": "$15.00",
+        "id": 12,
+        "title": "Whoopers",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/img/whooper.png"
+    }
+]

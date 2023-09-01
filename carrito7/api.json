@@ -1,0 +1,74 @@
+[
+    {
+        "precio": "$15.00",
+        "id": 1,
+        "title": "Swinkles",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/carrito7/img/1.webp"
+    },
+    {
+        "precio": "$25.00",
+        "id": 2,
+        "title": "Kidner Sorpresa",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/carrito7/img/2.webp"
+    },
+    {
+        "precio": "$10.00",
+        "id": 3,
+        "title": "Kinder Delice",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/carrito7/img/3.webp"
+    },
+    {
+        "precio": "$5.00",
+        "id": 4,
+        "title": "Oreo Cakesters",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/carrito7/img/4.webp"
+    },
+    {
+        "precio": "$15.00",
+        "id": 5,
+        "title": "Bocadines",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/carrito7/img/5.webp"
+    },
+    {
+        "precio": "$10.00",
+        "id": 6,
+        "title": "Bubulubu",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/carrito7/img/6.webp"
+    },
+    {
+        "precio": "$20.00",
+        "id": 7,
+        "title": "Nerds",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/carrito7/img/7.jpg"
+    },
+    {
+        "precio": "$15.00",
+        "id": 8,
+        "title": "Chupa chup",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/carrito7/img/8.jpg"
+    },
+    {
+        "precio": "$10.00",
+        "id": 9,
+        "title": "Ruffles",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/carrito7/img/9.webp"
+    },
+    {
+        "precio": "$15.00",
+        "id": 10,
+        "title": "Doritos",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/carrito7/img/10.webp"
+    },
+    {
+        "precio": "$10.00",
+        "id": 11,
+        "title": "Sweet tarts",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/carrito7/img/11.jpg"
+    },
+    {
+        "precio": "$15.00",
+        "id": 12,
+        "title": "Jolly Rancher",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/carrito7/img/12.jpg"
+    }
+]
