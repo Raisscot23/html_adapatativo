@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000000;
+    color: blue;
+}
+
+#contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    /*grid-template-areas: 
+    "header header  header"
+    "nav nav nav"
+    "contenido contenido sidebar"
+    "widget-1 widget-2 sidebar"
+    "footer footer footer";*/
+}
+
+.bordes{
+    background: rgb(160, 47, 47);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+#header{
+    background: #c94803;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: auto;
+}
+
+nav{
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    grid-row: 2/4;
+}
+
+a{
+    margin-left: 50px;
+}
+
+a:hover{
+    background-color: rgb(160, 160, 247);
+}
+
+#contenido {
+    grid-column: span 2;
+}
+
+#sidebar{
+    grid-column: 3/4;
+    background: #faa53d;
+    display: flex;
+    grid-row: 4;
+    justify-content: center;
+    /*grid-area: sidebar;*/
+}
+
+/*#widget-1{
+    grid-area: widget-1;
+}
+
+#widget-2{
+    grid-area: widget-2;
+}*/
+
+.wid{
+    background: #1b0470;
+    color: white;
+    height: 100px;
+    text-align: center;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: auto;
+    height: auto;
+}
+
+#footer{
+    background: #032bc9;
+    color: white;
+    grid-column: span 3;
+    text-align: center;
+}
+
+/*------------------------------------------*/
+
+/*@media screen and (max-width: 768px){
+    #contenedor{
+        grid-area: 
+        "header header header"
+        "sidebar sidebar sidebar"
+        "widget-1 widget-1 widget-2"
+        "footer footer footer";
+    }
+}*/
+
+@media screen and (max-width: 768px) {
+    #contenido{
+        grid-column: 1 / -1;
+    }
+    #sidebar{
+        grid-column: span 3;
+    }  
+    .wid{
+        grid-column: span 3;
+    }
+    #footer{
+        grid-column: span 3;
+    }
+}
+
+#logo{
+    width: auto;
+}
+
+#sp1{
+    height: 500px;
+}
+
+#sp2{
+    height: 300px;
+}
+
+p{
+    font-size: auto;
+    color: white;
+}
