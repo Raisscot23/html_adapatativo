@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+}
+
+aside {
+    width: 40%;
+    padding: 10px;
+    margin: 15px;
+    float: left;
+    font-size: italic;
+    background: rgba(94, 0, 0, 0.607);
+}
+
+p {
+    margin: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    color: white;
+}
+
+h4 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: #650000;
+    box-shadow: 1px 1px 50px #03285f;
+    position: fixed;
+    
+}
+
+#menu{
+    width: 750px;
+    padding-top: 5px;
+    margin: auto;
+}
+
+#menu ul a{
+    color: #ffffff; 
+    text-decoration: none;
+    font: 16px;
+    padding: 15px 20px 19px 20px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-----------------------------------------------Efecto Hover---------------------*/
+
+#menu ul a :hover{
+    color: #4907ff;
+    background: #6e6e6e;
+}
+
+/*---------------------Footer----------------------------------- */
+footer{
+    background: rgb(13, 3, 100);
+}
+
+#redes{
+    padding: 10px;
+    justify-content: center;
+}
+
+#redes h3{
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#sociales{
+    width: 350px;
+    text-align: center;
+}
+
+#sociales li{
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+    margin: auto;
+}
