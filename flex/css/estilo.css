@@ -1,0 +1,153 @@
+body {
+    background: #000000;
+    width: 700px;
+    margin: auto;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h3{
+    color: #ffffff;
+}
+
+p{
+    color: #ffffff;
+}
+
+#principal {
+    background: #2c0000;
+}
+
+.contenedor {
+    width: 690px;
+    border: 3px solid #aeff00;
+    margin-top: 15px;
+    display: flex;
+}
+
+.contenedor>div>img {
+    background: #000011;
+    color: #fff;
+    width: 120px;
+    height: 100px;
+    font-size: 2em;
+    margin: 4px;
+}
+
+.contenedor>div>p {
+    margin: 38px;
+}
+
+#caja1 {
+    flex-direction: row;
+}
+
+#caja1>div {
+    background: #030654;
+}
+
+/* caja 2 */
+#caja2 {
+    flex-direction: row-reverse;
+}
+
+#caja2>div {
+    background: #030654;
+}
+
+/* caja 3 */
+#caja3 {
+    width: 130px;
+    flex-direction: column;
+}
+
+#caja3>div {
+    background: #030654;
+}
+
+/* caja 4 */
+#caja4 {
+    width: 130px;
+    flex-direction: column-reverse;
+}
+
+#caja4>div {
+    background: #030654;
+}
+
+/* caja 5 */
+#caja5 {
+    width: 130px;
+    flex-wrap: wrap;
+}
+
+#caja5>div {
+    background: #030654;
+}
+
+/* caja 6 */
+#caja6 {
+    width: 130px;
+    flex-wrap: nowrap;
+}
+
+#caja6>div {
+    background: #030654;
+}
+
+/* caja 7 */
+#caja7 {
+    width: 130px;
+    flex-wrap: wrap-reverse;
+}
+
+#caja7>div {
+    background: #030654;
+}
+
+/* caja 8*/
+#caja8 {
+    justify-content: flex-start;
+}
+
+#caja8>div {
+    background: #030654;
+}
+
+/* caja 9*/
+#caja9 {
+    justify-content: flex-end;
+}
+
+#caja9>div {
+    background: #470405;
+}
+
+/* caja 10*/
+#caja10 {
+    justify-content: center;
+}
+
+#caja10>div {
+    background: #030654;
+}
+
+/* caja 11*/
+#caja11 {
+    justify-content: space-between;
+}
+
+#caja11>div {
+    background: #470405;
+}
+
+/* caja 12*/
+#caja12 {
+    justify-content: space-around;
+}
+
+#caja12>div {
+    background: #030654;
+}
