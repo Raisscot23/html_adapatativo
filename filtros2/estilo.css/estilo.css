@@ -1,0 +1,58 @@
+body{
+    background: rgb(0, 0, 0);
+}
+
+h1{
+    color: yellow;
+}
+
+.contenedor{
+    width: 1480px;
+    border: 1px solid #f00;
+    margin-top: 15px;
+    display: flex;
+}
+
+.contenedor > div > img{
+    text-align: center;
+    width: 210px;
+    margin: 4px;
+    display: flex;
+    font-size: 2em;
+}
+
+#caja1{
+    flex-direction: row;
+}
+
+legend{
+    color: white;
+    font-size: 25px;
+}
+
+fieldset{
+    margin: 20px;
+    width: 1400px;
+}
+
+#a{filter: none; width: 200px;}
+#b{filter: blur(5px); width: 200px;}
+#c{filter: brightness(0.2); width: 200px;}
+#d{filter: contrast(200%); width: 200px;}
+#e{filter: grayscale(70%); width: 200px;}
+#f{filter: hue-rotate(90deg); width: 200px;}
+#g{filter: invert(75%); width: 200px;}
+#h{filter: opacity(75%); width: 200px;}
+#i{filter: saturate(75%); width: 200px;}
+#j{filter: sepia(100%); width: 200px;}
+
+#k{filter:none;}
+#l{filter: blur(5px);}
+#m{filter: brightness(0.2);}
+#o{filter: contrast(200%);}
+#p{filter: grayscale(70%);}
+#q{filter: hue-rotate(90deg);}
+#r{filter: invert(75%);}
+#s{filter: opacity(75%);}
+#t{filter: saturate(75%);}
+#u{filter: sepia(100%);}
