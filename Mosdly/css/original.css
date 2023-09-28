@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+
+article{
+    float: left;
+    width: 50%;
+}
+
+body{
+    background: #fbd5b6;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 0 #000;
+}
+
+section{
+    background: #64924a;
+    margin: 10px auto auto;
+    overflow: hidden;
+    padding: 10px 0;
+    text-align: center;
+    width: 1000px;
+}
+
+.fila1 {
+    background: #B38901;
+}
+
+.fila2{
+    background: #034cca;
+}
+
+.fila3{
+    background: #ca0303;
+}
+
+@media screen and (max-width:1000px) {
+    section{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    article{
+        width: 100%;
+    }
+}
