@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture</title>
+</head>
+
+<body>
+    <h1>Element picture</h1>
+    <p>Al redimensionar el navegador, la imágen cmabiará a una imágens distinta más pequeña.</p>
+
+    <picture>
+        <source media="(min-width: 650px)" srcset="https://www.w3schools.com/tags/img_pink_flowers.jpg">
+        <source media="(min-width: 465px)" srcset="https://miscclasesfpd.000webhostapp.com/f2/dos.png">
+        <img src="https://www.w3schools.com/tags/img_orange_flowers.jpg" alt="Flores" style="width: auto;">
+    </picture>
+
+    <div>
+        <picture>
+            <source media="(min-width: 650px)" srcset="https://miscclasesfpd.000webhostapp.com/f2/dos.png">
+            <source media="(min-width: 465px)" srcset="https://miscclasesfpd.000webhostapp.com/f2/dos.png">
+            <img src="https://miscclasesfpd.000webhostapp.com/f2/dos.png" alt="" style="width: auto;">
+        </picture>
+    </div>
+</body>
+
+</html>
