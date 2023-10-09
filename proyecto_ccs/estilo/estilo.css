@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Agregado para evitar problemas de tamaño */
+}
+
+html {
+    background-color: rgb(51, 102, 179);
+}
+
+body {
+    max-width: 75%; /* Cambiado a max-width para que la página sea adaptable */
+    height: auto; /* Eliminado el alto fijo */
+    margin: auto;
+    background-color: rgb(255, 192, 203);
+    padding: 20px; /* Agregado espacio de relleno */
+}
+
+header {
+    width: 100%; /* Cambiado el ancho al 100% para ocupar todo el ancho */
+    height: 250px;
+    background-color: rgb(242, 176, 94);
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    text-align: center; /* Centrado el texto */
+}
+
+/* Uno ------------------- */
+section#banner,
+section#logo,
+section#login {
+    padding: 10px;
+    width: 30%;
+    height: 30%;
+    margin-left: 10%;
+    float: left;
+    color: rgb(255, 255, 250);
+    margin-right: 20px; /* Agregado espacio entre las secciones */
+}
+
+.caja {
+    position: relative;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%; /* Hacer que las imágenes sean adaptables */
+}
+
+/*-------------------- */
+
+nav {
+    width: 100%; /* Cambiado el ancho al 100% para ocupar todo el ancho */
+    height: 250px;
+    background-color: hsl(95, 76%, 37);
+    color: hsl(44, 100%, 50);
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    text-align: center; /* Centrado el texto */
+}
+
+/* Dos ------------------- */
+section#inicio,
+section#producto,
+section#contacto {
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-right: 20px; /* Agregado espacio entre las secciones */
+}
+
+main {
+    width: 100%; /* Cambiado el ancho al 100% para ocupar todo el ancho */
+    height: auto; /* Eliminado el alto fijo */
+    background-color: rgb(250, 249, 250);
+    color: rgb(255, 186, 0);
+    font-family: 'Miltonian', cursive;
+    text-align: center; /* Centrado el texto */
+}
+
+/* Tres ------------------ */
+aside#hoy,
+article#novedades,
+aside#internacional {
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-right: 20px; /* Agregado espacio entre las secciones */
+}
+
+/*------------------- */
+footer {
+    width: 100%; /* Cambiado el ancho al 100% para ocupar todo el ancho */
+    height: 250px;
+    background-color: rgb(10, 64, 247);
+    font-family: 'Galada', cursive;
+    font-size: 20px;
+    color: rgb(10, 255, 0);
+    text-align: center; /* Centrado el texto */
+}
+
+/* Cuatro ------------------ */
+aside#creditos,
+article#lugar,
+aside#correo {
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-right: 20px; /* Agregado espacio entre las secciones */
+}
