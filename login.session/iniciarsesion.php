@@ -1,0 +1,62 @@
+<?php
+
+/*Inicializa las variables*/
+session_start();
+include('conexion.php');
+
+if(isset($_POST['usuario']) && isset($_POST['clave'])){
+
+ 
+
+    function validar($data){
+        $data   = trim($data);
+        $data   = stripcslashes($data);
+        $data   = htmlspecialchars($data);
+        return $data;
+    }
+
+    $usuario    = validar($_POST['usuario']);
+    $clave      = validar($_POST['clave']);
+ 
+    if(empty($usuario)){
+        header("Location: index.php?error=usuario requerido");
+        exit();
+    }elseif(empty($clave)){
+        header("Location: index.php?error=Clave requerida");
+        exit();
+
+}else{
+
+    // $Clave  = md5($Clave);
+    $sql    = "SELECT * FROM alumnos WHERE usuario = '$usuario' AND  clave = '$clave'";
+    $result = mysqli_query($conexion, $sql);
+
+    if(mysqli_num_rows($result) == 1){
+        $row = mysqli_fetch_assoc($result);
+        if($row['usuario'] === $usuario && $row['clave'] === $clave){
+
+            /*ahora se generan las variables de sesion*/
+            $_SESSION['usuario'] = $row['usuario'];
+            $_SESSION['Nombre_completo'] = $row['Nombre_completo'];
+            $_SESSION['id'] = $row['id'];
+ 
+            header("Location: inicio.php");
+            exit();
+        }else{
+            header("Location: index.php?error=El usuario o clave son erroneas 1");
+            exit();
+        }
+    }else{
+            header("Location: index.php?error=El usuario o clave son erroneas 2");
+            exit();            
+        }
+    }
+}
+else{
+header("Location: index.php?error=El usuario o clave son erroneas 3");
+exit();
+}
+
+ 
+
+?>
