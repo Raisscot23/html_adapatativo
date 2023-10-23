@@ -1,0 +1,172 @@
+@font-face{
+    font-family: AlumniSansCollegiateOne-Regular;
+    src: url(../fuentes_usadas/AlumniSansCollegiateOne-Regular.ttf);
+}
+
+@font-face{
+    font-family: Merriweather-Light;
+    src: url(../fuentes_usadas/Merriweather-Light.ttf);
+}
+
+@font-face{
+    font-family: Oswald-VariableFont_wght;
+    src: url(../fuentes_usadas/Oswald-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background: black;
+}
+
+body{
+    width: 750px;
+    height: 1000px;
+    margin: auto;
+    background: #ffc0cb;
+}
+
+section#banner{
+    background: yellow;
+    font-family: AlumniSansCollegiateOne-Regular;
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+section#logo{
+    background: blue;
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+section#login{
+    background: red;
+    width: 250px;
+    height: 250px;
+    float: right;
+}
+
+.caja{
+    position: relative;
+    display: inline-block;
+}
+
+#uno{
+    position: absolute;
+    top: 20px;
+    left: 5%;
+}
+
+#dos{
+    position: absolute;
+    top: 20px;
+    left: 5%;
+}
+
+#tres{
+    position: absolute;
+    top: 20px;
+    left: 5%;
+}
+
+/*---------------------------------*/
+
+nav{
+    width: 750px;
+    height: 250px;
+    background: white;
+    color: white;
+    font-size: 20px;
+    font-family: Merriweather-Light;
+}
+
+section#inicio{
+    width: 250px;
+    height: 250px;
+    float: left;
+
+    background: rgb(51, 41, 24);
+}
+
+section#producto{
+    width: 250px;
+    height: 250px;
+    float: left;
+
+    background: rgb(184, 52, 52);
+}
+
+section#contacto{
+    width: 250px;
+    height: 250px;
+    float: right;
+
+    background: rgb(120, 120, 189);
+}
+
+/*---------------------------------*/
+
+main{
+    width: 750px;
+    height: 250px;
+    font-size: 20px;
+    color: yellow;
+    font-family: Oswald-VariableFont_wght;
+}
+
+aside#hoy{
+    width: 250px;
+    height: 250px;
+    float: left;
+    background: rgb(71, 0, 0);
+}
+
+article#novedades{
+    width: 250px;
+    height: 250px;
+    float: left;
+    background: rgb(23, 3, 112);
+}
+
+aside#interacional{
+    width: 250px;
+    height: 250px;
+    float: right;
+    background: rgb(255, 255, 255);
+}
+
+/*---------------------------------*/
+
+footer{
+    width: 750px;
+    height: 250px;
+    font-size: 20px;
+    color: yellow;
+    font-family: Oswald-VariableFont_wght;
+}
+
+aside#creditos{
+    width: 250px;
+    height: 250px;
+    float: left;
+    background: rgb(172, 117, 117);
+}
+
+article#lugar{
+    width: 250px;
+    height: 250px;
+    float: left;
+    background: rgb(3, 112, 30);
+}
+
+aside#correo{
+    width: 250px;
+    height: 250px;
+    float: right;
+    background: rgb(155, 142, 142);
+}
