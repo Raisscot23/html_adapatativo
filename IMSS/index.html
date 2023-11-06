@@ -7,6 +7,77 @@
     <title>IMSS</title>
 </head>
 <body>
-    
+    <h1>Formulario IMSS</h1>
+    <form class="declara" id="contact_form" action="#">
+    <ul>
+        <li>
+            <span class="required_notification">Agregue sus datos</span>
+        </li>
+        <li>
+            <label for="num">Número de Derechohabiente</label>
+            <input type="text" name="num" pattern="[A-Za-z-0-9].{11,}" placeholder="11 CARACTERES MAXIMO" maxlength="11"
+                required />
+        </li>
+
+        <!---->
+        <li>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" pattern="[a-zA-Z0-9\s]+" placeholder="15 CARACTERES" maxlength="20"
+                required />
+        </li>
+
+        <li>
+            <label for="apellido">Apellidos</label>
+            <input type="text" name="apellido" pattern="[a-zA-Z0-9\s]+" placeholder="20 CARACTERES" maxlength="20"
+                required />
+        </li>
+
+        <li>
+            <label for="sangre">Tipo de Sangre</label>
+            <select name="sangre" required>
+                <option value="">Opci&oacute;n</option>
+                <option value="A">A+</option>
+                <option value="O">O+</option>
+                <option value="B">B+</option>
+                <option value="AB">AB+</option>
+                <option value="a">A-</option>
+                <option value="o">O-</option>
+                <option value="b">B-</option>
+                <option value="ab">AB-</option>
+            </select>
+        </li>
+
+        <li>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" pattern="[0-9]" placeholder="2 CARACTERES" maxlength="2"
+            required />
+        </li>
+
+        <li>
+            <label for="especial">Especiliadad de estudios</label>
+            <select name="Estudios" required>
+                <option value="">opci&oacute;n</option>
+                <option value="secundaria">Secundaria</option>
+                <option value="Preparatoria">Preparatoria</option>
+                <option value="Universidad">Universidad</option>
+                <option value="Maestría">Maestría</option>
+                <option value="Dcotorado">Dcotorado</option>
+                <option value="otro">Otro</option>
+            </select>
+        </li>
+
+        <li>
+            <label for="telefono">Telefono</label>
+            <input type="number" name="lada" pattern="[0-9]" placeholder="3 CARACTERES" maxlength="3"
+                required />
+            <input type="number" name="telefono" pattern="[0-9]" placeholder="10 CARACTERES" maxlength="10"
+                required />
+        </li>
+
+        <li>
+            <button class="submit" type="submit">Enviar</button>
+        </li>
+    </ul>
+</form>
 </body>
 </html>
