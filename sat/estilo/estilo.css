@@ -70,7 +70,8 @@ body{
 }
  
 .declara input:focus{
-    background: #791212;
+    color: white;
+    background: #f52c2c;
     border: 1px solid rgb(8, 118, 8);
     box-shadow: 0 0 3px #0ff;
     padding-right: 70px;
