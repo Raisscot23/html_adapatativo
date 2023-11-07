@@ -1,0 +1,21 @@
+body{
+    background: black;
+}
+
+h1{
+    color: yellow;
+    font-family: tipografia_1;
+}
+
+p{
+    color: white;
+    font-family: tipografia_2;
+}
+
+@font-face{
+    font-family: tipografia_1;
+    src: url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+    font-family: tipografia_2;
+    src: url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+}
