@@ -1,0 +1,47 @@
+h1{
+    font-size: 1.05rem;
+}
+
+h2{
+    font-size: 1.25rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: 1.75rem;
+}
+
+h5{
+    font-size: 2rem;
+}
+
+h6{
+    font-size: 2.05rem;
+}
+
+#titulo_1{
+    color: #413075;
+}
+
+#titulo_2{
+    color: #226666;
+}
+
+#titulo_3{
+    color: #679933;
+}
+
+#titulo_4{
+    color: #AAAA39;
+}
+
+#titulo_5{
+    color: #AA8E39;
+}
+
+#titulo_6{
+    color: #AA3C39;
+}
