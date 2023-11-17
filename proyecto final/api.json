@@ -1,0 +1,122 @@
+[
+    {
+        "precio": "$30.00",
+        "id": 1,
+        "title": "Final Fantasy Origins",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/proyecto%20final/img/juego_1.jpg"
+    },
+    {
+        "precio": "$25.00",
+        "id": 2,
+        "title": "Final Fantasy 4",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/proyecto%20final/img/juego_3.jpg"
+    },
+    {
+        "precio": "$25.00",
+        "id": 3,
+        "title": "Final Fantasy Anthology",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/proyecto%20final/img/juego_4.jpg"
+    },
+    {
+        "precio": "$50.00",
+        "id": 4,
+        "title": "Final Fantasy 7",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/proyecto%20final/img/juego_5.jpg"
+    },
+    {
+        "precio": "$50.00",
+        "id": 5,
+        "title": "Final Fantasy 8",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/proyecto%20final/img/juego_6.jpg"
+    },
+    {
+        "precio": "$50.00",
+        "id": 6,
+        "title": "Final Fantasy 9",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/proyecto%20final/img/juego_7.jpg"
+    },
+    {
+        "precio": "$20.00",
+        "id": 7,
+        "title": "Final Fantasy 10",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/proyecto%20final/img/juego_8.jpg"
+    },
+    {
+        "precio": "$15.00",
+        "id": 8,
+        "title": "Final Fantasy 10-2",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/proyecto%20final/img/juego_9.jpg"
+    },
+    {
+        "precio": "$50.00",
+        "id": 9,
+        "title": "Final Fantasy 11",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/proyecto%20final/img/juego_10.jpg"
+    },
+    {
+        "precio": "$20.00",
+        "id": 10,
+        "title": "Final Fantasy 12 The Zodiac Age",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/proyecto%20final/img/juego_11.jpg"
+    },
+    {
+        "precio": "$10.00",
+        "id": 11,
+        "title": "Final Fantasy 13",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/proyecto%20final/img/juego_12.jpg"
+    },
+    {
+        "precio": "$15.00",
+        "id": 12,
+        "title": "Final Fantasy 13-2",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/proyecto%20final/img/juego_13.jpg"
+    },
+    {
+        "precio": "$15.00",
+        "id": 13,
+        "title": "Final Fantasy 13 Ligthning Returns",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/proyecto%20final/img/juego_14.jpg"
+    },
+    {
+        "precio": "$70.00",
+        "id": 14,
+        "title": "Final Fantasy 14",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/proyecto%20final/img/juego_15.jpg"
+    },
+    {
+        "precio": "$20.00",
+        "id": 15,
+        "title": "Final Fantasy 15",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/proyecto%20final/img/juego_16.jpg"
+    },
+    {
+        "precio": "$70.00",
+        "id": 16,
+        "title": "Final Fantasy 16",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/proyecto%20final/img/juego_17.jpg"
+    },
+    {
+        "precio": "$15.00",
+        "id": 17,
+        "title": "Final Fantasy 12 (Original)",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/proyecto%20final/img/juego_18.jpg"
+    },
+    {
+        "precio": "$40.00",
+        "id": 18,
+        "title": "Final Fantasy 7 Remake",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/proyecto%20final/img/juego_19.jpg"
+    },
+    {
+        "precio": "$70.00",
+        "id": 19,
+        "title": "Final Fantasy 7 Rebirth",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/proyecto%20final/img/juego_20.jpg"
+    },
+    {
+        "precio": "$150.00",
+        "id": 20,
+        "title": "Final Fantasy Pixel Remaster",
+        "thumbnailUrl": "https://indexgeneralhtml5.000webhostapp.com/proyecto%20final/img/juego_21.webp"
+    }
+]
